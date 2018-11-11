@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to bottom right, darkblue, white);
+    font-family: 'Spicy Rice', cursive !important;
+    overflow: hidden;
+}
+
+.header {
+    color: white;
+    font-weight: 500;
+}
+
+.questions {
+    display: flex;
+}
+
+.questions > div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.question {
+    color: white;
+    flex-direction: column;
+}
+
+.button-play {
+    background-color: darkgreen;
+    border: 0;
+    box-shadow: 1px 1px 13px 0px indigo;
+    color: white;
+    height: 60px;
+    width: 140px;
+}
+
+.button-play:hover {
+    background-color: green;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+p {
+    font-size: 28px;
+}
+
